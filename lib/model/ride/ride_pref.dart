@@ -44,26 +44,5 @@ class RidePreference {
       arrival.hashCode^
       requestedSeats.hashCode;
 
-  void main() {
-    Location loc1 = Location(name: "City A", country:Country.cambodia);
-    Location loc2 = Location(name: "City A" , country: Country.cambodia);
-
-    RidePreference ride1 = RidePreference(
-      departure: loc1,
-      departureDate: DateTime(2025, 3, 20),
-      arrival: loc2,
-      requestedSeats: 2,
-    );
-
-    RidePreference ride2 = RidePreference(
-      departure: loc1,
-      departureDate: DateTime(2025, 3, 20),
-      arrival: loc2,
-      requestedSeats: 2,
-    );
-
-    print(ride1);
-    print(ride1 == ride2);
-  }
 
 }
