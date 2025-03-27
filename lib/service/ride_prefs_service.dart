@@ -1,5 +1,5 @@
+import '../data/repository/ride_preferences_repository.dart';
 import '../model/ride/ride_pref.dart';
-import '../repository/ride_preferences_repository.dart';
 // import 'package:week_3_blabla_project/provider/async_value.dart';
 
 ////

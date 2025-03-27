@@ -4,7 +4,7 @@ import 'package:week_3_blabla_project/service/ride_prefs_service.dart';
 import 'package:week_3_blabla_project/ui/screens/rides/widgets/ride_pref_modal.dart';
 import 'package:week_3_blabla_project/utils/animations_util.dart';
 import '../../../model/ride/ride_filter.dart';
-import '../../../provider /ride_pref_provider.dart';
+import '../../provider /ride_pref_provider.dart';
 import 'widgets/ride_pref_bar.dart';
 import '../../../model/ride/ride.dart';
 import '../../../model/ride/ride_pref.dart';

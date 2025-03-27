@@ -2,8 +2,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:logger/logger.dart';
 import 'package:week_3_blabla_project/model/ride/ride_pref.dart';
-import 'package:week_3_blabla_project/repository/mock/mock_ride_preferences_repository.dart';
-
+import '../../data/repository/mock/mock_ride_preferences_repository.dart';
 import 'async.dart';
 
 class RidePrefProvider extends ChangeNotifier {

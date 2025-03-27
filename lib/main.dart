@@ -1,10 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:week_3_blabla_project/provider%20/ride_pref_provider.dart';
+import 'package:week_3_blabla_project/ui/provider%20/ride_pref_provider.dart';
 
-import 'repository/mock/mock_locations_repository.dart';
-import 'repository/mock/mock_rides_repository.dart';
-import 'repository/mock/mock_ride_preferences_repository.dart';
+
+import 'data/repository/mock/mock_locations_repository.dart';
+import 'data/repository/mock/mock_ride_preferences_repository.dart';
+import 'data/repository/mock/mock_rides_repository.dart';
 import 'service/locations_service.dart';
 import 'service/rides_service.dart';
 import 'service/ride_prefs_service.dart';
@@ -14,7 +15,7 @@ import 'ui/theme/theme.dart';
 
 void main() {
   // 1 - Initialize the services
-  RidePrefService.initialize(MockRidePreferencesRepository());
+  // RidePrefService.initialize(MockRidePreferencesRepository());
   LocationsService.initialize(MockLocationsRepository());
   RidesService.initialize(MockRidesRepository());
 
